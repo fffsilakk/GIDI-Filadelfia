@@ -53,10 +53,10 @@ Warna diambil dari logo GIDI dan Danau Sentani (lihat `src/assets/main.css`):
 biru danau `#14305A`, biru langit `#8CC4E6`, kuning GIDI `#F2C230`, merah salib `#C62828`.
 Huruf judul Bricolage Grotesque, huruf teks Plus Jakarta Sans (dipasang lokal lewat Fontsource).
 
-## Formulir kontak
+## Kontak
 
-Situs belum memakai server, jadi formulir membuka aplikasi email pengunjung dengan isi pesan yang
-sudah terisi. Bila nanti ada backend, ganti fungsi `kirim` di `src/components/kontak/KontakForm.vue`.
+Situs ini statis (tanpa server), jadi halaman Kontak memakai tautan langsung ke email, WhatsApp,
+telepon, dan media sosial. Semua alamatnya diatur di `src/data/site.js`.
 
 ## Deploy
 

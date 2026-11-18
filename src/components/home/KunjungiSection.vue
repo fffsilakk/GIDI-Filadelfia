@@ -9,7 +9,7 @@ import { site } from "@/data/site";
         <h2 v-reveal class="text-3xl font-semibold sm:text-4xl lg:text-5xl">Kunjungi kami di Sere</h2>
         <p v-reveal class="lead mt-5">
           Punya pertanyaan, butuh dukungan doa, atau ingin bergabung dalam pelayanan? Datang langsung
-          atau kirim pesan, kami akan membalas secepatnya.
+          atau hubungi kami lewat email, WhatsApp, dan media sosial.
         </p>
         <dl v-reveal.stagger class="mt-10 space-y-6">
           <div>
@@ -26,7 +26,7 @@ import { site } from "@/data/site";
           </div>
         </dl>
         <div v-reveal class="mt-10 flex flex-wrap gap-3">
-          <RouterLink to="/kontak" class="btn btn-primary">Kirim pesan</RouterLink>
+          <RouterLink to="/kontak" class="btn btn-primary">Semua kontak</RouterLink>
           <a :href="site.maps.link" target="_blank" rel="noopener" class="btn btn-outline">Buka di Google Maps</a>
         </div>
       </div>
