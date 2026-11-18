@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIDI Filadelfia Sere Sentani</title>
+    <meta
+      name="description"
+      content="Gereja Injili di Indonesia (GIDI) Jemaat Filadelfia, Sere, Sentani, Kabupaten Jayapura. Jadwal ibadah, kegiatan, renungan, dan kontak gereja."
+    />
+    <meta name="theme-color" content="#14305a" />
+    <link rel="icon" href="/logo/gidi.png" type="image/png" />
+    <script>
+      // Terapkan tema sebelum halaman tampil supaya tidak berkedip.
+      (function () {
+        try {
+          var saved = localStorage.getItem("theme");
+          var dark = saved
+            ? saved === "dark"
+            : window.matchMedia("(prefers-color-scheme: dark)").matches;
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
